@@ -1,0 +1,88 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.contanier{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(219, 203, 203, 0.205);
+ 
+}
+.nav{
+  width: 100px;
+  position: relative;
+ padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.All-Count{
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: royalblue;
+
+}
+
+.all{
+  position: relative;
+  width: 150px;
+  left: 200px;
+  top: 20px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.zero{
+  background-color:  #ffcc00;
+  position: relative;
+  right: 10px;
+  top: 2px;
+  font-size: 20px;
+}
+
+.btn{
+  position: fixed;
+  margin-left: 40px;
+  
+}
+.increment{
+  width: 30px;
+  height: 30px;
+  border:1px solid black ;
+  background-color:  #535f5f;
+}
+.increment>span{
+  background-color: seashell;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.decrement{
+  position: relative;
+  left: 2px;
+  width: 30px;
+  height: 30px;
+  border:1px solid black ;
+  background-color: #27dbdb;
+}
+.decrement>span{
+  width: 100%;
+  height: 100%;
+  background-color: seashell;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.replace{
+  position: relative;
+  right: 120px;
+}
